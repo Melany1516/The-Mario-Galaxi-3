@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: georgia;
+}
+
+header{
+    background-color: #ada9a9;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.encabezado-img{
+    background-image: url(img/543.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.encabezado-img p{
+    font-size: 20px;
+}
+
+.encabezado-img h1{
+    font-size: 50px;
+}
+
+.encabezado-img h2{
+    font-size: 30px;
+}
+
+.producto img{
+width: 130px;
+height: 150px;
+}
+
+.producto{
+    max-width: 20rem;
+    box-shadow: 0 .1rem .2rem #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto div{
+    position: relative;
+}
+
+.producto div p{
+    position: absolute;
+    top: 1rem;
+    right: 0px;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.titulo-producto{
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 5rem;
+}
+
+.precio-del-producto{
+font-weight: 600;
+margin-top: .4rem;
+}
+
+.boton-añadir-carrito{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.boton-añadir-carrito:hover{
+    background-color: #fff;
+    color: #000;
+    border: solid .2rem #000;
+    font-weight: 600;
+}
+
+.producto{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+
+.Contenedor{       
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    transition: 1.3ms;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+ 
+/* footer */
+
+footer{
+    background: #000000;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    gap: 30px;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #6a6b91;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #fff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px 0 0 0;
+    margin: 20px;
+    color: #727070;
+
+}
+
+
+
+
